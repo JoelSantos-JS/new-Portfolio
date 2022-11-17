@@ -100,7 +100,7 @@ function Navbar() {
                     <a href="https://github.com/JoelSantos-JS" target='_blank'  className='flex justify-between items-center w-full text-gray-300'>GitHub <FaGithub size={30} className='rounded'/></a>
                 </li>
                 <li className='w-[140px] h-[60px] flex justify-between items-center ml-[-110px] hover:ml-[2px] duration-300 bg-[#6f2cb0] rounded' > 
-                    <a href="mail:joeltere9@gmail.com" target='_blank'  className='flex justify-between items-center w-full text-gray-300'>Email <HiOutlineMail size={30} className='rounded'/></a>
+                    <a href="mailTo:joeltere9@gmail.com" target='_blank'  className='flex justify-between items-center w-full text-gray-300'>Email <HiOutlineMail size={30} className='rounded'/></a>
                 </li>
                 <li className='w-[140px] h-[60px] flex justify-between items-center ml-[-110px] hover:ml-[2px] duration-300 bg-[#565f] rounded' > 
                     <a href="/about"    className='flex justify-between items-center w-full text-gray-300'>Resumo <BsFillPersonLinesFill size={30} className='rounded'/></a>

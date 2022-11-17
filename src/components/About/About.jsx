@@ -23,16 +23,17 @@ function About() {
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
 
                     <div className='sm:text-right text-3xl font-bold flex flex-col'>
-                    <span>Olá! Eu sou Joel Santos. Desenvolvedor Web</span>
-                    <div className='flex justify-center items-center'>
-                    <a href='./src/assets/CV.pdf'  className='bg-[#F9004D] text-xl  rounded py-3 mt-2 px-4 flex  justify-center items-center gap-3' download=''>Download CV <BsCloudDownload/> </a>
+                    <span>Olá! Eu sou Joel Santos. </span>
+                    <span>Web Developer</span>
+                    <div className='flex justify-end items-center'>
+                    <a href='https://joelsantos-portfolio.netlify.app/assets/Curr%C3%ADculo%20profissional%20da%20TI%20preto%20e%20cinza.pdf'  target='_blank' className='bg-[#F9004D] text-xl  rounded py-3 mt-2 px-4 flex  justify-center items-center gap-3' download=''>Download CV <BsCloudDownload/> </a>
                     </div>
                    
                     </div>
 
                     <div>
                     <p>
-                        Desenvolvedor Web Front-end e futuro desenvolvedor full stack, sou apaixonado pela área de tecnologia. Entusiasta em Web Hacking, curto muito jogos, animes, mangás, e esportes. Faço Musculaçao, elas são minhas atividades nas horas Vagas. Atualmente estudo como autodidata, inglês e Programação.
+                    Desenvolvedor Web Front-end e futuro desenvolvedor full stack, sou apaixonado pela área de tecnologia. Entusiasta em Web Hacking, curto muito jogos, animes, mangás, e esportes. Faço Musculaçao, elas são minhas atividades nas horas Vagas. Atualmente estudo como autodidata, inglês  e Programação.
                         </p>
                                     
                     </div>

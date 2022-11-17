@@ -10,7 +10,7 @@ function Work() {
         <div className='max-w-[1000px] mx-auto p-4 px-11 flex flex-col justify-center w-full h-full'>
           <div className='pb-8'>
             <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#F9004D]'>Portfolio</p>
-            <p className='py-6'>My recent projects</p>
+            <p className='py-6'>Meus projetos recentes</p>
           </div>
 
           <div  className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
@@ -24,10 +24,10 @@ function Work() {
 
                   <div className='pt-8 text-center'>
                     <a href="https://poke-dex15.netlify.app/" target='_blank'>
-                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg '>Demo</button>
+                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#1B1F39]  text-white font-bold text-lg '>Demo</button>
                     </a>
                     <a href="https://github.com/JoelSantos-JS/Pok-dex" target='_blank'>
-                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg '>Code</button>
+                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#1B1F39]  text-white font-bold text-lg '>Code</button>
                     </a>
                     
                   </div>
@@ -44,10 +44,10 @@ function Work() {
 
                   <div className='pt-8 text-center'>
                     <a href="https://github-profile-10.vercel.app/" target='_blank'>
-                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg '>Demo</button>
+                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#1B1F39] text-white font-bold text-lg '>Demo</button>
                     </a>
                     <a href="https://github.com/JoelSantos-JS/Github-Profile" target='_blank'>
-                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg '>Code</button>
+                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#1B1F39]  text-white font-bold  text-lg '>Code</button>
                     </a>
                     
                   </div>
@@ -64,10 +64,10 @@ function Work() {
 
                   <div className='pt-8 text-center'>
                     <a href="https://weather-project-lyart.vercel.app/" target='_blank'>
-                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg '>Demo</button>
+                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#1B1F39]  text-white font-bold text-lg '>Demo</button>
                     </a>
                     <a href="https://github.com/JoelSantos-JS/weather-project" target='_blank'>
-                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg '>Code</button>
+                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#1B1F39]  text-white font-bold text-lg '>Code</button>
                     </a>
                     
                   </div>
