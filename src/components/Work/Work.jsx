@@ -100,8 +100,7 @@ function Work() {
         </div>
 
       
-      
-      
+     
       </div>
   )
 }

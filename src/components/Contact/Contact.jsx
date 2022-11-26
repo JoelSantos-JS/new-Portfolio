@@ -4,9 +4,9 @@ function Contact() {
   return (
     <div name='contact' className=' w-full h-screen bg-[rgb(18,21,32)] flex justify-center items-center p-4'>
        
-        <form className='flex flex-col ' action='https://getform.io/f/4a6aa87c-e23f-43bc-ab70-106ccee92165'  method='POST'>
-        <div className='py-9'>
-            <p className='text-4xl font-bold inline border-b-4 border-[#F9004D] text-gray-300'>Contact</p>
+        <form className='flex flex-col mt-10 ' action='https://getform.io/f/4a6aa87c-e23f-43bc-ab70-106ccee92165'  method='POST'>
+        <div className='py-10'>
+            <p className='text-4xl font-bold inline   border-b-4 border-[#F9004D] text-gray-300'>Contact</p>
 
             <p className='text-gray-300 py-4 '>Submit the form below or shoot me an email - joeltere9@gmail.com</p>
           </div>
