@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    background: rgb(18,21,32);
+}
+
 
 .container-div {
     background-repeat: no-repeat;

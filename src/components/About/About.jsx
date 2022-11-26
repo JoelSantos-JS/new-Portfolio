@@ -11,8 +11,8 @@ function About() {
 
             <div className='max-w-[1000px] w-full  grid grid-cols-3 gap-8'>
 
-                <div className='sm:text-right pb-8 pl-4 '>
-                    <p className='text-4xl font-bold inline border-b-4 border-[#F9004D]'>About</p>
+                <div className='sm:text-right pb-8 pl-4 mt-10'>
+                    <p className='text-4xl   font-bold inline border-b-4 border-[#F9004D]'>About</p>
                 </div>
 
                 </div>
