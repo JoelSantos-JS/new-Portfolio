@@ -8,13 +8,13 @@ import tailwind from '../../assets/tailwind.png'
 import javascript from '../../assets/javascript.png'
 import typeScript from '../../assets/typescript-2.svg'
 
-function Skills() {
+function Tecnologias() {
   return (
-    <div name='skills' className='w-full h-screen bg-[rgb(18,21,32)]'>
+    <div name='Tecnologias' className='w-full h-screen bg-[rgb(18,21,32)]'>
 
         <div className='max-w-[1000px] mx-auto flex flex-col p-4 justify-center w-full h-full'>
           <div className='sm:text-left pb-8 pl-4  mt-12'>
-            <p className='text-4xl text-gray-300 inline font-bold inline border-b-4 border-[#F9004D]'>Skills</p>
+            <p className='text-4xl text-gray-300 inline font-bold inline border-b-4 border-[#F9004D]'>Tecnologias</p>
           </div>
 
           <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-5 text-center py-8 mt-2 '>
@@ -48,4 +48,4 @@ function Skills() {
   )
 }
 
-export default Skills
+export default Tecnologias

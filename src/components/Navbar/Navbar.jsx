@@ -28,13 +28,13 @@ function Navbar() {
                 </li>
                 <li>
 
-                <Link  to="about" >
-        About
+                <Link  to="sobre" >
+        Sobre
         </Link>
                 </li>
                 <li>
-                <Link  to="skills" >
-        Skills
+                <Link  to="Tecnologias" >
+                Tecnologias
         </Link>
                 </li>
                 <li>
@@ -43,8 +43,8 @@ function Navbar() {
         </Link>
                 </li>
                 <li>
-                <Link  to="contact" >
-        Contact
+                <Link  to="Contato" >
+        Contato
         </Link>
                 </li>
             </ul>
@@ -67,13 +67,13 @@ function Navbar() {
         </Link>
                 </li>
                 <li className='py-6 text-4xl'>
-                <Link onClick={handleClick}  to="about" >
-        About
+                <Link onClick={handleClick}  to="sobre" >
+        Sobre
         </Link>
                 </li>
                 <li className='py-6 text-4xl'>
-                <Link onClick={handleClick}  to="skills" >
-        Skills
+                <Link onClick={handleClick}  to="Tecnologias" >
+                Tecnologias
         </Link>
                 </li>
                 <li className='py-6 text-4xl'>
@@ -82,8 +82,8 @@ function Navbar() {
         </Link>
                 </li>
                 <li className='py-6 text-4xl'>
-                <Link onClick={handleClick}   to="contact" >
-        Contact
+                <Link onClick={handleClick}   to="contato" >
+        Contato
         </Link>
                 </li>
 
@@ -103,7 +103,7 @@ function Navbar() {
                     <a href="mailTo:joeltere9@gmail.com" target='_blank'  className='flex justify-between items-center w-full text-gray-300'>Email <HiOutlineMail size={30} className='rounded'/></a>
                 </li>
                 <li className='w-[140px] h-[60px] flex justify-between items-center ml-[-110px] hover:ml-[2px] duration-300 bg-[#565f] rounded' > 
-                    <a href="/about"    className='flex justify-between items-center w-full text-gray-300'>Resumo <BsFillPersonLinesFill size={30} className='rounded'/></a>
+                    <a href="sobre"    className='flex justify-between items-center w-full text-gray-300'>Resumo <BsFillPersonLinesFill size={30} className='rounded'/></a>
                 </li>
             </ul>
 
