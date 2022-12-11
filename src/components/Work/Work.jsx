@@ -4,6 +4,8 @@ import pokerdex from '../../assets/projects/pokerdex.gif'
 
 import github from '../../assets/projects/23.gif'
 import portfolio from '../../assets/projects/port.gif'
+
+import jsmassas from '../../assets/projects/Jsmassas.gif'
 function Work() {
   return (
     <div name='work' className='w-full md:h-screen text-gray-300 bg-[rgb(18,21,32)]'>
@@ -19,7 +21,7 @@ function Work() {
             
             
               <div className='opacity-0 group-hover:opacity-100'>
-                <span className='text-2xl font-bold text-white tracking-wider'>
+                <span className='text-2xl font-bold text-white tracking-wider '>
                  PokeDex
                 </span>
 
@@ -34,7 +36,32 @@ function Work() {
                     
                   </div>
 
+                  <div className='pt-5 text-center flex flex-col items-center text-sm  gap-2    '>
+                    <div>
+                      <span className='text-white text-lg'>Tecnologias Usadas</span>
+                    </div>
+                   
+                   <div className='flex flex-row items-center text-sm  gap-2   '>
 
+                
+                    <div className='super-border'>
+                    Eu sou Desenvolvedor
+                    </div>
+                    <div className='super-border'>
+                    Eu sou Desenvolvedor
+                    </div>
+              
+                    <div className='super-border' >
+                    Eu sou Desenvolvedor 
+                    </div>
+                    <div  className='super-border'>
+                    Eu sou Desenvolvedor 
+                    </div>
+                    </div>
+                
+              
+                    
+                  </div>
 
                   
               </div>
@@ -75,6 +102,26 @@ function Work() {
                       <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#1B1F39]  text-white font-bold text-lg '>Demo</button>
                     </a>
                     <a href="https://github.com/JoelSantos-JS/new-Portfolio" target='_blank'>
+                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#1B1F39]  text-white font-bold text-lg '>Code</button>
+                    </a>
+                    
+                  </div>
+              </div>
+            </div>
+            <div style={{backgroundImage:`url(${jsmassas})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center  mb-10 mx-auto container-div'>
+            
+            
+              <div className='opacity-0 group-hover:opacity-100'>
+                <span className='text-2xl font-bold text-white tracking-wider'>
+                Js-Massas
+
+                </span>
+
+                  <div className='pt-8 text-center'>
+                    <a href="https://pj-full-js-massas-tuz2.vercel.app/" target='_blank'>
+                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#1B1F39]  text-white font-bold text-lg '>Demo</button>
+                    </a>
+                    <a href="https://github.com/JoelSantos-JS/Pj-full---JsMassas.git" target='_blank'>
                       <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#1B1F39]  text-white font-bold text-lg '>Code</button>
                     </a>
                     

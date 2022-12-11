@@ -20,8 +20,9 @@ body {
 }
 
 .super-border {
-    border: 1px solid orange;
+    border: 3px solid #1B1F39;
     border-radius: 25px;
+    color: whitesmoke;
     height: 50px;
     width: 100%;
 }
