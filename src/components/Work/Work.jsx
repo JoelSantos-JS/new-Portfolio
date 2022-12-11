@@ -37,29 +37,8 @@ function Work() {
                   </div>
 
                   <div className='pt-5 text-center flex flex-col items-center text-sm  gap-2    '>
-                    <div>
-                      <span className='text-white text-lg'>Tecnologias Usadas</span>
-                    </div>
-                   
-                   <div className='flex flex-row items-center text-sm  gap-2   '>
-
-                
-                    <div className='super-border'>
-                    Eu sou Desenvolvedor
-                    </div>
-                    <div className='super-border'>
-                    Eu sou Desenvolvedor
-                    </div>
-              
-                    <div className='super-border' >
-                    Eu sou Desenvolvedor 
-                    </div>
-                    <div  className='super-border'>
-                    Eu sou Desenvolvedor 
-                    </div>
-                    </div>
-                
-              
+                 
+ 
                     
                   </div>
 
