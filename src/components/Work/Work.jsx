@@ -182,7 +182,7 @@ function Work() {
             </div>
             <div className="text-center mt-8 opacity-0 py-4 px-8 rounded group-hover:opacity-100 bg-[#1B1F39] ">
               <p className="text-lg text-zinc-50">
-                O projeto foi um desafio para um Vaga front-end ele utiliza :
+                O projeto foi um desafio para um Vaga front-end ele utiliza:
                 Html,Css,Javascript.
               </p>
             </div>
