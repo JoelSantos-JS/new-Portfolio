@@ -8,7 +8,7 @@ import portfolio from "../../assets/projects/port.gif";
 import jsmassas from "../../assets/projects/Jsmassas.gif";
 import desafio from "../../assets/projects/17.gif";
 
-import jsextension from "../../assets/projects/js.JPG";
+import jsextension from "../../assets/projects/js.jpg";
 function Work() {
   return (
     <div
