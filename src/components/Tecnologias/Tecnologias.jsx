@@ -11,7 +11,11 @@ import php from "../../assets/php.png";
 
 function Tecnologias() {
   return (
-    <div name="Tecnologias" className="w-full h-screen bg-[rgb(18,21,32)]">
+    <div
+      name="Tecnologias"
+      id="tech"
+      className="w-full h-screen bg-[rgb(18,21,32)]"
+    >
       <div className="max-w-[1000px] mx-auto flex flex-col p-4 justify-center w-full h-full">
         <div className="sm:text-left pb-8 pl-4  mt-12">
           <p className="text-4xl text-gray-300 inline font-bold inline border-b-4 border-[#F9004D]">

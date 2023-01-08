@@ -14,10 +14,10 @@ function AppRoutes() {
     <div>
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/sobre" element={<Sobre />} />
-        <Route path="/tecnologias" element={<Tecnologias />} />
-        <Route path="/portfolio" element={<Work />} />
-        <Route path="/contato" element={<Contato />} />
+        <Route path="/sobre" id="about" element={<Sobre />} />
+        <Route path="/tecnologias" id="tech" element={<Tecnologias />} />
+        <Route path="/portfolio" id="work" element={<Work />} />
+        <Route path="/contato" id="contato" element={<Contato />} />
         <Route
           path="*"
           element={

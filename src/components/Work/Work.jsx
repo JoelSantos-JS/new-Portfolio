@@ -14,6 +14,7 @@ function Work() {
     <div
       name="work"
       className="w-full md:h-screen text-gray-300 bg-[rgb(18,21,32)]"
+      id="work"
     >
       <div className="max-w-[1000px] mx-auto p-4 px-11 flex flex-col justify-center pb-[80px]  w-full h-full">
         <div className=" flex flex-col items-center py-8 justify-center mt-[150px] ">
