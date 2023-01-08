@@ -3,26 +3,28 @@
 @tailwind utilities;
 
 body {
-    background: rgb(18,21,32);
+  background: rgb(18, 21, 32);
 }
 
-
 .container-div {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 250px;
-    
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
 }
 
 .container-div:hover {
-    background-image: linear-gradient(to right, rgba(112,157,255,0.8), hsla(242,74%, 61%, 0.8) )!important ;
+  background-image: linear-gradient(
+    to right,
+    rgba(112, 157, 255, 0.8),
+    hsla(242, 74%, 61%, 0.8)
+  ) !important ;
 }
 
 .super-border {
-    border: 3px solid #1B1F39;
-    border-radius: 25px;
-    color: whitesmoke;
-    height: 50px;
-    width: 100%;
+  border: 3px solid #1b1f39;
+  border-radius: 25px;
+  color: whitesmoke;
+  height: 50px;
+  width: 100%;
 }

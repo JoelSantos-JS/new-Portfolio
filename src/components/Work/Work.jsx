@@ -6,6 +6,9 @@ import github from "../../assets/projects/23.gif";
 import portfolio from "../../assets/projects/port.gif";
 
 import jsmassas from "../../assets/projects/Jsmassas.gif";
+import desafio from "../../assets/projects/17.gif";
+
+import jsextension from "../../assets/projects/16.jpg";
 function Work() {
   return (
     <div
@@ -119,6 +122,67 @@ function Work() {
               <p className="text-lg text-zinc-50">
                 O projeto utiliza: React, TailwindCss,
                 React-scroll,React-Router-DOM e React-Icons.
+              </p>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${jsextension})` }}
+            className="shadow-lg shadow-[#040c16] group container jsextension rounded-md flex flex-col justify-center items-center  mb-10 mx-auto container-div"
+          >
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Js-Extension
+              </span>
+
+              <div className="pt-8 text-center">
+                <a
+                  href="https://github.com/JoelSantos-JS/JS-Extension"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#1B1F39]  text-white font-bold text-lg ">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+            <div className="text-center mt-8 opacity-0 py-4 px-8 rounded group-hover:opacity-100 bg-[#1B1F39] ">
+              <p className="text-lg text-zinc-50">
+                O projeto utiliza: React, Scss, Firebase, e React-Icons.
+              </p>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${desafio})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex flex-col justify-center items-center  mb-10 mx-auto container-div"
+          >
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Desafio front-end
+              </span>
+
+              <div className="pt-8 text-center">
+                <a
+                  href="https://desafio-front-end-psi.vercel.app/"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#1B1F39]  text-white font-bold text-lg ">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/JoelSantos-JS/Desafio-Front-End"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#1B1F39]  text-white font-bold text-lg ">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+            <div className="text-center mt-8 opacity-0 py-4 px-8 rounded group-hover:opacity-100 bg-[#1B1F39] ">
+              <p className="text-lg text-zinc-50">
+                O projeto foi um desafio para um Vaga front-end ele utiliza :
+                Html,Css,Javascript.
               </p>
             </div>
           </div>
