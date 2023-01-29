@@ -5,10 +5,10 @@ function Contato() {
     <div
       name="Contato"
       id="contato"
-      className=" w-full h-screen bg-[rgb(18,21,32)] flex justify-center items-center p-4"
+      className=" w-full h-screen bg-[rgb(18,21,32)] flex justify-center items-center mt-[420px] p-4 "
     >
       <form
-        className="flex flex-col mt-10 "
+        className="flex flex-col"
         action="https://getform.io/f/4a6aa87c-e23f-43bc-ab70-106ccee92165"
         method="POST"
       >

@@ -1,7 +1,6 @@
 import React from "react";
 
 import { HiArrowNarrowRight } from "react-icons/hi";
-import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -21,13 +20,14 @@ function Home() {
         </p>
 
         <div>
-          <Link to="portfolio">
+          {" "}
+          <button className="text-white border-2 px-6 py-3 mt-2 flex items-center gap-2 rounded hover:bg-[#F9004D] duration-300 hover:border-[#F9004D]">
             {" "}
-            <button className="text-white border-2 px-6 py-3 mt-2 flex items-center gap-2 rounded hover:bg-[#F9004D] duration-300 hover:border-[#F9004D]">
+            <a href="#work" className="flex items-center">
               {" "}
               Ver Projetos <HiArrowNarrowRight className="ml-2" />{" "}
-            </button>
-          </Link>
+            </a>
+          </button>
         </div>
       </div>
     </div>

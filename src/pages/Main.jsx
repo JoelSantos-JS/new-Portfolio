@@ -1,16 +1,12 @@
-import React from 'react'
-import Home from '../components/Home/Home'
-import Navbar from '../components/Navbar/Navbar'
-
+import React from "react";
+import Home from "../components/Home/Home";
 
 function Main() {
   return (
     <div>
-
-<Home/>
-
+      <Home />
     </div>
-  )
+  );
 }
 
-export default Main
+export default Main;

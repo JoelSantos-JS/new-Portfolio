@@ -7,11 +7,11 @@ function Sobre() {
     <div
       name="about"
       id="about"
-      className="w-full h-screen bg-[rgb(18,21,32)] text-gray-300"
+      className="w-full h-full bg-[rgb(18,21,32)] text-gray-300"
     >
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full  grid grid-cols-3 gap-8">
-          <div className="sm:text-right pb-8 pl-4 mt-10">
+          <div className="sm:text-right pb-8 pl-4 mt-4">
             <p className="text-4xl   font-bold inline border-b-4 border-[#F9004D]">
               Sobre
             </p>
