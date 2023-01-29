@@ -1,6 +1,7 @@
 import React from "react";
 
 import { HiArrowNarrowRight } from "react-icons/hi";
+import { TextContainer } from "./style";
 
 function Home() {
   return (
@@ -10,9 +11,9 @@ function Home() {
         <h1 className="text-4xl sm:text-6xl font-bold text-[#ccd6f6]">
           Joel Santos
         </h1>
-        <h2 className="text-4xl sm:text-6xl font-bold text-[#8892b0]">
+        <TextContainer className="text-4xl sm:text-6xl font-bold text-[#8892b0]">
           Eu sou Desenvolvedor Frontend
-        </h2>
+        </TextContainer>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
           {" "}
           {">"}23 Ano apaixonado por tecnologia e obcecado em aprender
