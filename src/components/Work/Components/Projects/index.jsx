@@ -13,11 +13,13 @@ function Projects({ image, link1, link2, text, title }) {
           </span>
 
           <div className="pt-8 text-center">
-            <a href={link1} target="_blank">
-              <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#1B1F39]  text-white font-bold text-lg ">
-                Demo
-              </button>
-            </a>
+            {link1 && (
+              <a href={link1} target="_blank">
+                <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#1B1F39]  text-white font-bold text-lg ">
+                  Demo
+                </button>
+              </a>
+            )}
             <a href={link2} target="_blank">
               <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#1B1F39]  text-white font-bold text-lg ">
                 Code
