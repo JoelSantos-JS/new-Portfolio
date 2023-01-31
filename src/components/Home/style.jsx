@@ -24,6 +24,7 @@ export const TextContainer = styled.h2`
   @keyframes animate {
     0%,
     10%,
+    30%,
     100% {
       width: 0;
     }
