@@ -7,6 +7,7 @@ import portfolio from "../../assets/projects/port.gif";
 
 import jsmassas from "../../assets/projects/Jsmassas.gif";
 import desafio from "../../assets/projects/17.gif";
+import CodeBurger from "../../assets/projects/code.gif";
 
 import jsextension from "../../assets/projects/extension.png";
 import Projects from "./Components/Projects";
@@ -26,6 +27,12 @@ function Work() {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4 ">
+          <Projects
+            image={CodeBurger}
+            link2="https://github.com/JoelSantos-JS/Front-end-Code-burger"
+            title="CodeBurger"
+            text="O projeto utiliza: React, TailwindCss, React-scroll,React-Router-DOM e React-Icons."
+          />
           <Projects
             image={portfolio}
             link1="https://joel-new-portfolio.vercel.app/"
