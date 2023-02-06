@@ -22,7 +22,7 @@ function Work() {
           <p className="text-3xl font-bold mt-[150px]  inline border-b-4 text-gray-300 border-[#F9004D]">
             Portfolio
           </p>
-          <p className="py-6 text-2xl">Meus projetos recentes</p>
+          <p className="py-6 text-2xl">Meus projetos </p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4 ">
