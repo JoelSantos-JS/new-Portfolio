@@ -7,7 +7,7 @@ import portfolio from "../../assets/projects/port.gif";
 
 import jsmassas from "../../assets/projects/Jsmassas.gif";
 import desafio from "../../assets/projects/17.gif";
-import CodeBurger from "../../assets/projects/code.gif";
+import burguer from "../../assets/projects/burguer.jpeg";
 import blog from "../../assets/projects/sd.png";
 import jsextension from "../../assets/projects/extension.png";
 import Projects from "./Components/Projects";
@@ -35,7 +35,7 @@ function Work() {
             text="O projeto utiliza: React, css , React Toastfy e React-Icons."
           />
           <Projects
-            image={CodeBurger}
+            image={burguer}
             link2="https://github.com/JoelSantos-JS/Front-end-Code-burger"
             title="CodeBurger"
             text="O projeto utiliza: React, TailwindCss, React-scroll,React-Router-DOM e React-Icons."
