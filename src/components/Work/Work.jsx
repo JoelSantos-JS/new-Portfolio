@@ -5,7 +5,7 @@ import pokerdex from "../../assets/projects/pokerdex.gif";
 import github from "../../assets/projects/23.gif";
 import portfolio from "../../assets/projects/port.gif";
 
-import jsmassas from "../../assets/projects/Jsmassas.gif";
+import massas from "../../assets/projects/massas.png";
 import desafio from "../../assets/projects/17.gif";
 import burguer from "../../assets/projects/burguer.jpeg";
 import blog from "../../assets/projects/sd.png";
@@ -48,7 +48,7 @@ function Work() {
             text="O projeto utiliza: React, TailwindCss, React-scroll,React-Router-DOM e React-Icons."
           />
           <Projects
-            image={jsmassas}
+            image={massas}
             link1="https://pj-full-js-massas-tuz2.vercel.app/"
             link2="https://github.com/JoelSantos-JS/Pj-full---JsMassas.git"
             title="JS-Massas"
