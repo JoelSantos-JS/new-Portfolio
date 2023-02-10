@@ -8,7 +8,7 @@ import portfolio from "../../assets/projects/port.gif";
 import jsmassas from "../../assets/projects/Jsmassas.gif";
 import desafio from "../../assets/projects/17.gif";
 import CodeBurger from "../../assets/projects/code.gif";
-
+import blog from "../../assets/projects/sd.JPG";
 import jsextension from "../../assets/projects/extension.png";
 import Projects from "./Components/Projects";
 function Work() {
@@ -27,6 +27,13 @@ function Work() {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4 ">
+          <Projects
+            image={blog}
+            link1="https://blog-rjdh5r2s6-joelsantos-js.vercel.app/"
+            link2="https://github.com/JoelSantos-JS/blog"
+            title="Blog"
+            text="O projeto utiliza: React, css , React Toastfy e React-Icons."
+          />
           <Projects
             image={CodeBurger}
             link2="https://github.com/JoelSantos-JS/Front-end-Code-burger"
