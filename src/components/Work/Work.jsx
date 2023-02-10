@@ -8,7 +8,7 @@ import portfolio from "../../assets/projects/port.gif";
 import jsmassas from "../../assets/projects/Jsmassas.gif";
 import desafio from "../../assets/projects/17.gif";
 import CodeBurger from "../../assets/projects/code.gif";
-import blog from "../../assets/projects/sd.JPG";
+import blog from "../../assets/projects/sd.png";
 import jsextension from "../../assets/projects/extension.png";
 import Projects from "./Components/Projects";
 function Work() {
