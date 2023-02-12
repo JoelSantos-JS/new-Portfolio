@@ -7,8 +7,10 @@ import {
   FaFacebook,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
+import { ImSwitch } from "react-icons/im";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../../assets/logo.png";
+import { NavbarContainer, ButtonSwitch } from "./styles";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -16,11 +18,20 @@ function Navbar() {
     setNav(!nav);
   };
 
+  const [isActive, setIsActive] = useState(true);
+
+  const handleActiver = () => {
+    setIsActive((props) => !props);
+  };
+
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[rgb(18,21,32)] text-gray-300">
-      <div>
+      <NavbarContainer>
         <h2 className="text-4xl text-[#F9004D]">JS</h2>
-      </div>
+        <div className="text-4xl  cursor-pointer">
+          <ButtonSwitch isactive={isActive} onClick={() => handleActiver()} />
+        </div>
+      </NavbarContainer>
 
       <div>
         <ul className="hidden md:flex gap-5">
